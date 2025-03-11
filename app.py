@@ -1,5 +1,5 @@
 import telegram
-from telegram.ext import Updater, Dispatcher, CommandHandler, MessageHandler, Filters, ConversationHandler  # Updater eklendi
+from telegram.ext import Updater, Dispatcher, CommandHandler, MessageHandler, Filters, ConversationHandler
 import yt_dlp
 import os
 import time
@@ -11,7 +11,7 @@ CHOOSE_QUALITY, GET_TRIM, BULK_MODE = range(3)
 
 # Bot token'ı
 TOKEN = "7922647331:AAFTXWyzVRL4pqjVsbUbRDDFrUD-vq8xVuU"
-WEBHOOK_URL = "https://videokap.onrender.com/webhook"  # Deploy sonrası kendi URL’ni yaz
+WEBHOOK_URL = "https://app-py-wgs8.onrender.com/webhook"  # Senin Render URL’n
 
 # Flask app
 app = Flask(__name__)
